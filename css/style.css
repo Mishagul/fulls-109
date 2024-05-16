@@ -179,3 +179,15 @@ background-color: #2e2f42;
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
+.footer-logo-cursive{
+    color: #f4f4fd;
+}
+
+.footer-text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
