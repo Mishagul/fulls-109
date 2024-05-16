@@ -66,5 +66,17 @@ color: #2e2f42;
     color: #404bbf;
 }
 
+.section-one {
+    background-color: #2e2f42;
+}
+
+.solutions-title {
+    font-size: 56px;
+line-height: 107%;
+letter-spacing: 0.02em;
+text-align: center;
+color: #ffffff;
+}
+
 
 
