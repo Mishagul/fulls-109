@@ -113,7 +113,7 @@ letter-spacing: 0.02em;
 }
 
 .team {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -126,9 +126,10 @@ text-transform: capitalize;
 color: #2e2f42;
 }
 
-.text{
-    background-color: #FFFFFF
+.gallery{
+    background-color: #FFFFFF;
 }
+
 .section-heading {
     font-weight: 500;
 font-size: 20px;
@@ -137,4 +138,8 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
+.text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
