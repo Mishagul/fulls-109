@@ -41,3 +41,10 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
+.Solutions-buy-btn :hover {
+    background-color: #404bbf;
+}
+
+.Solutions-buy-btn :focus {
+    background-color: #404bbf;
+}
