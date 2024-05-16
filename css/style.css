@@ -92,11 +92,11 @@ color: #ffffff;
 }
 
 .solutions-buy-btn :hover {
-background-color: #404BBF;
+color: #404BBF;
 }
 
 .solutions-buy-btn :focus {
-background-color: #404BBF;
+color: #404BBF;
 } 
 
 .solutions-buy-btn {
