@@ -58,11 +58,11 @@ color: #2e2f42;
     color: #434455;
 }
 
-.header-menu-item :hover {
+.header-contact :hover {
     color: #404bbf;
 }
 
-.header-menu-item :focus {
+.header-contact :focus {
     color: #404bbf;
 }
 
