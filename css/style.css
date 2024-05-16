@@ -90,3 +90,17 @@ color: #ffffff;
     color: #ffffff;  
 }
 
+.solutions-buy-btn :hover {
+color: #404BBF;
+}
+
+.solutions-buy-btn :focus {
+color: #404BBF;
+} 
+
+.solutions-buy-btn {
+    cursor: pointer;
+}
+
+
+
