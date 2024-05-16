@@ -99,7 +99,7 @@ background-color: #404BBF;
     cursor: pointer;
 }
 
-.qualities-title {
+.strategy-title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -108,7 +108,7 @@ color:#2e2f42 ;
 }
 
 .qualities-strategy {
-line-height: 1.2;
+line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
