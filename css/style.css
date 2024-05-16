@@ -52,17 +52,17 @@ color: #2e2f42;
     font-style: normal;
 }
 
-.header-menu-item {
+.address-menu-item {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.header-menu-item :hover {
+.address-menu-item :hover {
     color: #404bbf;
 }
 
-.header-menu-item :focus {
+.address-menu-item :focus {
     color: #404bbf;
 }
 
