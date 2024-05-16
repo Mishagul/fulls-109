@@ -87,11 +87,11 @@ color: #ffffff;
     color: #ffffff;  
 }
 
-.solutions-buy-btn :hover {
+.solutions-buy-btn:hover {
 background-color: #404bbf;
 }
 
-.solutions-buy-btn :focus {
+.solutions-buy-btn:focus {
 background-color: #404BBF;
 } 
 
