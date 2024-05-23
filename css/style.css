@@ -297,6 +297,7 @@ color: #F4F4FD;
 
 .gallery {
     flex-basis: calc(( 1440px - 72px ) / 4 );
+    border-radius: 0px 0px 4px 4px;
 }
 
 .portfolio-item {
