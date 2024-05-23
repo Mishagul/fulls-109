@@ -294,3 +294,7 @@ color: #F4F4FD;
     display: flex;
     gap: 24px;
 }
+
+.gallery{
+    flex-basis: calc(( 1440px - 72px ) / 4 );
+}
