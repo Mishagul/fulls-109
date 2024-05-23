@@ -296,5 +296,5 @@ color: #F4F4FD;
 }
 
 .gallery {
-    flex-basis: calc(( 1440px - 72px ) / 4 );
+    width: calc((100% - 72px) / 4);
 }
