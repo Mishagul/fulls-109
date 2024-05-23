@@ -236,3 +236,18 @@ color: #F4F4FD;
     display: flex;
     gap: 40px;
 }
+
+.section-one {
+    padding: 188px 0 188px;
+}
+
+.solutions-title {
+    max-width: 496px;
+}
+
+.solutions-buy-btn {
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+}
