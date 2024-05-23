@@ -349,10 +349,13 @@ color: #F4F4FD;
 }
 
 .footer-logo {
-    display: inline-block;
     margin-bottom: 16px;
 }
 
 .footer-text {
     max-width: 264px;
+}
+
+.footer-logo-cursive {
+    display: inline-block;
 }
