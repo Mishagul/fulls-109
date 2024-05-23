@@ -254,3 +254,7 @@ color: #F4F4FD;
 
 .qualities-title visually-hidden {
 }
+
+.qualities {
+    padding: 120px 0 120px;
+}
