@@ -222,6 +222,10 @@ color: #F4F4FD;
     padding: 24px 0;
 }
 
+.header-menu-link {
+    padding: 24px 0 24px;
+}
+
 .header-contact-list {
     display: flex;
     gap: 40px;
