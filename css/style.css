@@ -216,13 +216,13 @@ color: #F4F4FD;
     margin-right: 76px;
 }
 
-.header-menu-list {
+.header-contact-list {
     display: flex;
     gap: 40px;
     padding: 24px 0
 }
 
-.header-menu-item {
+.header-contact {
     display: flex;
     gap: 40px;
 }
