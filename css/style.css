@@ -97,6 +97,7 @@ background-color: #404BBF;
 
 .solutions-buy-btn {
     cursor: pointer;
+    display: block;
 }
 
 .strategy-title {
