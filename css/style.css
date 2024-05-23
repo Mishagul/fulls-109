@@ -295,6 +295,6 @@ color: #F4F4FD;
     gap: 24px;
 }
 
-.gallery{
-    flex-basis: calc(( 100% - 72px ) / 4 );
+.gallery {
+    flex-basis: calc((100% - 72px) / 4);
 }
