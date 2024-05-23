@@ -271,7 +271,7 @@ color: #F4F4FD;
 
 .list-qualities {
     display: flex;
-    margin-right: 24px;
+    gap: 24px;
 }
 
 .qualities-items {
