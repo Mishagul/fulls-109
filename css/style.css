@@ -274,5 +274,9 @@ color: #F4F4FD;
 }
 
 .qualities-items {
-    margin-right: 24px
+    margin-right: 24px;
+}
+
+.strategy-title {
+    margin-bottom: 8px;
 }
