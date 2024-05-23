@@ -346,6 +346,7 @@ color: #F4F4FD;
 
 .footer {
     padding: 100px 0;
+    display: inline-block;
 }
 
 .footer-logo {
@@ -354,8 +355,4 @@ color: #F4F4FD;
 
 .footer-text {
     max-width: 264px;
-}
-
-.footer-logo-cursive {
-    display: inline-block;
 }
