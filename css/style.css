@@ -251,3 +251,6 @@ color: #F4F4FD;
     border: none;
     border-radius: 4px;
 }
+
+.qualities-title visually-hidden {
+}
