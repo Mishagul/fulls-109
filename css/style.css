@@ -281,3 +281,16 @@ color: #F4F4FD;
 .strategy-title {
     margin-bottom: 8px;
 }
+
+.team {
+    padding: 120px 0;
+}
+
+.team-title {
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
