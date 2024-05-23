@@ -315,9 +315,10 @@ color: #F4F4FD;
 
 .our-portfolio {
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.app-title {
+.portfolio-title {
     margin-bottom: 72px;
 }
 
