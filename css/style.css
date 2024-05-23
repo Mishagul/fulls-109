@@ -206,3 +206,23 @@ color: #F4F4FD;
     display: flex;
     padding: 0 15px 0 15px;
 }
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: 76px;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0
+}
+
+.header-menu-item {
+    display: flex;
+    gap: 40px;
+}
