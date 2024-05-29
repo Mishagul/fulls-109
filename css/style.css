@@ -265,7 +265,7 @@ color: #F4F4FD;
     position: absolute;
     width: 1px;
     height: 1px;
-    margin: 0;
+    margin: -1;
     border: 0;
     padding: 0;
     white-space: nowrap;
