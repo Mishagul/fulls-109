@@ -65,6 +65,18 @@ color: #2e2f42;
     margin-left: auto;
 }
 
+.header-menu-item::after {
+    content: '';
+    color: #404bbf;
+    position: relative;
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+} 
+
 .header-menu-item {
     line-height: 1.5;
     letter-spacing: 0.02em;
