@@ -467,6 +467,7 @@ overflow: hidden;
 .box {
     align-items: baseline;
     display: flex;
+    margin-left: 120px;
 }
 
 .footer-logo {
