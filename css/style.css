@@ -198,7 +198,9 @@ align-items: center;
 justify-content: center;
 }
 
-.our-team-svg:focus{background-color: #404bbf;}
+.our-team-svg:focus {background-color: #404bbf;
+}
+
 .our-team-svg:hover {background-color: #404bbf;
     fill: #F4F4FD;
 }
