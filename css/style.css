@@ -200,11 +200,12 @@ justify-content: center;
 
 .our-team-link:focus {background-color: #404bbf;
 }
-
 .our-team-link:hover {background-color: #404bbf;
-    fill: #F4F4FD;
 }
 
+.our-team-svg {
+    fill: #F4F4FD;
+}
 
 .section-heading {
     font-weight: 500;
