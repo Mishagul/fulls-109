@@ -243,6 +243,7 @@ margin-bottom: 72px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 margin: 0;
+transform: translateY(0%);
 }
 
 .app:hover {
