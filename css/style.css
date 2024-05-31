@@ -476,6 +476,19 @@ overflow: hidden;
     display: inline-block;
 }
 
+.footer-box-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-box {
+    margin-right: 120px;
+}
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
