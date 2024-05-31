@@ -185,10 +185,14 @@ justify-content: center;
 height: 40px;
 }
 
-.our-team-network-list .item{
-    padding: 12px;
-    background-color: #4d5ae5;
-    border-radius: 50%;
+.item {
+width: 40%;
+height: 40%;
+display: flex;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+transition: background-color #4d5ae5;
 }
 
 .our-team-link {
