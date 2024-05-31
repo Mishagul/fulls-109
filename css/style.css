@@ -281,8 +281,6 @@ background-color: #2e2f42;
 }
 
 .container {
-    align-items: baseline;
-        display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
@@ -464,6 +462,11 @@ overflow: hidden;
 
 .footer {
     padding: 100px 0;
+}
+
+.box {
+    align-items: baseline;
+    display: flex;
 }
 
 .footer-logo {
