@@ -205,6 +205,10 @@ align-items: center;
 justify-content: center;
 }
 
+.our-team-svg{
+    fill: #F4F4FD;
+}
+
 
 .section-heading {
     font-weight: 500;
