@@ -176,10 +176,9 @@ margin: 0;
 }
 
 .our-team-network-list {
-list-style-type: none;
 display: flex;
 gap: 24px;
-margin-bottom: 8px;
+margin-top: 8px;
 align-items: center;
 justify-content: center;
 }
