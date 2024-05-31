@@ -281,6 +281,8 @@ background-color: #2e2f42;
 }
 
 .container {
+    align-items: baseline;
+        display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
@@ -497,6 +499,16 @@ overflow: hidden;
     color: #F4F4FD;
     max-width: 264px;
     margin: 0;
+}
+
+.footer-box-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-box-item {
+    width: 40px;
+    height: 40px;
 }
 
 .footer-box-link {
