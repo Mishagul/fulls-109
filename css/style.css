@@ -435,10 +435,6 @@ overflow: hidden;
     transform: translateY(0%);
 }
 
-.portfolio-text:hover {
-    transform: translateY(100%);
-}
-
 .app {
     width: calc((100% - 48px) / 3);
     padding-left: 0;
