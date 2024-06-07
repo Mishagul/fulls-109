@@ -598,10 +598,8 @@ overflow: hidden;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-svg:hover {
-    fill: #FFFFFF;
-}
-
-.modal-svg:focus {
+.modal-svg:hover, .modal-svg:focus {
+    background-color: #404BBF;
+    border: none;
     fill: #FFFFFF;
 }
