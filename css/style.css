@@ -682,3 +682,11 @@ input:focus + svg {
 .modal-form-comment:focus {
     border-color: #4D5AE5;
 }
+
+.modal-checkbox {
+    margin-bottom: 24px;
+}
+
+.checkbox-link {
+    
+}
