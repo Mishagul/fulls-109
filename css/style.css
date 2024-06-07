@@ -659,10 +659,6 @@ input:focus + svg {
     fill: #4D5AE5;
 }
 
-.modal-checkbox {
-    margin-bottom: 16px;
-}
-
 .modal-form-comment {
     width: 100%;
     height: 120px;
@@ -688,5 +684,9 @@ input:focus + svg {
 }
 
 .checkbox-link {
-    
+
+}
+
+.modal-comment {
+    margin-bottom: 16px;
 }
