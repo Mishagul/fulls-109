@@ -371,10 +371,17 @@
         </div>
     </div>
 </footer>
-<form class="footer-form">
-    <label for="footer-name" aria-label="name"></label>
-    <input type="name" id="footer-name" name="footer-name" class="footer-input" placeholder="Enter your name"
-/>
+<div class="backdrop is-open">
+    <div class="modal">
+        <button type="modal-btn" class="modal-close"></button>
+        <svg class="icon icon-close"><use xlink:href="#icon-close"></use></svg>
+        <p class="modal-title title"></p>
+        <form class="footer-form">
+            <label for="footer-name" aria-label="name"></label>
+            <input type="name" id="footer-name" name="footer-name" class="footer-input" placeholder="Enter your name"
+        />
+    </div>
+</div>
 </form>
 </body>
 </html>
