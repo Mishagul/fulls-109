@@ -574,3 +574,13 @@ overflow: hidden;
     padding: 0;
     cursor: pointer;
 }
+
+.modal-btn:hover {
+    background-color: #404bbf;
+    border: none;
+}
+
+.modal-btn:focus {
+    background-color: #404bbf;
+    border: none;
+}
