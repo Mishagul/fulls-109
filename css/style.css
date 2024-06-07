@@ -658,3 +658,7 @@ overflow: hidden;
 input:focus + svg {
     fill: #4D5AE5;
 }
+
+.modal-checkbox {
+    margin-bottom: 16px;
+}
