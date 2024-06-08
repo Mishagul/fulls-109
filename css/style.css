@@ -709,3 +709,9 @@ input:focus + svg {
     justify-content: center;
     fill: transparent;
 }
+
+.modal-check:checked + .modal-text-policy > .check-span { 
+background-color: #404BBF;
+fill: #F4F4FD;
+border: none;
+}
