@@ -706,7 +706,7 @@ input:focus + svg {
     fill: transparent;
 }
 
-.checkbox-link:checked+.check-text>.link-policy {
+.checkbox-link:checked+.check-text>.check-icon {
     background-color: #404BBF;
     fill: #F4F4FD;
     border: none;
