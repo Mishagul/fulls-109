@@ -722,6 +722,7 @@ border: none;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .link-policy {
