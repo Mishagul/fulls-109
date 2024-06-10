@@ -706,7 +706,7 @@ input:focus + svg {
     fill: transparent;
 }
 
-.modal-check:checked + .modal-text-policy > .check-span { 
+.modal-check:checked + .check-span:checked { 
 background-color: #404BBF;
 fill: #F4F4FD;
 border: none;
