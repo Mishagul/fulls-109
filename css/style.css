@@ -706,10 +706,10 @@ input:focus + svg {
     fill: transparent;
 }
 
-.modal-check:checked + .check-span:checked { 
-background-color: #404BBF;
-fill: #F4F4FD;
-border: none;
+.checkbox-link:checked+.user-privacy>.link-policy {
+    background-color: #404BBF;
+    fill: #F4F4FD;
+    border: none;
 }
 
 .check-span {
