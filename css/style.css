@@ -830,6 +830,19 @@ margin-left: 80px;
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
     }
+
+    .team-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+
+        .portfolio-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            padding-left: 108px;
+        }
 }
 
 @media screen and (min-width: 1158px) {
@@ -838,4 +851,10 @@ margin-left: 80px;
         padding-left: 15px;
         padding-right: 15px;
     }
+
+        .portfolio-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
 }
