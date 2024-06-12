@@ -825,6 +825,12 @@ margin-left: 80px;
         max-width: 768px;
     }
 
+    .header-menu-list {
+        display: flex;
+        gap: 40px;
+        padding: 24px 0;
+    }
+
     .list-qualities {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -838,10 +844,10 @@ margin-left: 80px;
     }
 
         .portfolio-list {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 24px;
-            padding-left: 108px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        padding-left: 108px;
         }
 }
 
@@ -853,8 +859,8 @@ margin-left: 80px;
     }
 
         .portfolio-list {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 24px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
         }
 }
