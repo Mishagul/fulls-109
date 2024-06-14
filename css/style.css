@@ -289,6 +289,7 @@ transform: translateY(0%);
 .header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .container {
@@ -303,7 +304,6 @@ transform: translateY(0%);
 }
 
 .header-logo {
-    margin-right: 76px;
 }
 
 .header-menu-list {
