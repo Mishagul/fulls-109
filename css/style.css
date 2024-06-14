@@ -591,14 +591,13 @@ overflow: hidden;
     padding: 72px 24px 24px 24px;
 }
 
-/* .modal-overlay.is-open {
+.modal-overlay.is-open {
     opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-} */
-
-.modal-btn {
     position: absolute;
+    pointer-events: auto;
+}
+
+    .modal-btn {
     top: 24px;
     right: 24px;
     width: 24px;
