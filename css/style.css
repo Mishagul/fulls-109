@@ -32,6 +32,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding: 17px 0;
 }
 
 .header-logo-cursive {
@@ -285,7 +286,7 @@ transform: translateY(0%);
 .container {
     width: 320px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding: 0 16px;
 }
 
 .header-navigation {
@@ -298,9 +299,8 @@ transform: translateY(0%);
 }
 
 .header-menu-list {
-    display: flex;
+    display: none;
     flex-wrap: wrap;
-    gap: 40px;
     padding: 24px 0;
 }
 
@@ -309,8 +309,7 @@ transform: translateY(0%);
 }
 
 .header-contact-list {
-    display: flex;
-    gap: 40px;
+    display: none;
 }
 
 .header-contact {
@@ -832,18 +831,6 @@ margin-left: 80px;
         width: 768px;
     }
 
-    .header-menu-link {
-        display: inline;
-        gap: 40px;
-        padding: 24px 0;
-    }
-
-    .header-contact-list {
-        display: flex;
-        flex-wrap: wrap;
-        padding-left: 24px;
-    }
-
         .section-one {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/peopleoffice1-tab.jpg);
@@ -890,6 +877,7 @@ margin-left: 80px;
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
+        padding: 0 15px;
     }
 
     .section-one {
