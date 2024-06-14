@@ -320,7 +320,7 @@ transform: translateY(0%);
 
 .section-one { 
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/peopleoffice1.jpg);
+    url(../images/peopleoffice1-mob.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -838,6 +838,8 @@ margin-left: 80px;
     }
 
         .section-one {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                    url(../images/peopleoffice1-tab.jpg);
             width: 768px;
             padding: 112px 0 112px;
         }
@@ -875,6 +877,8 @@ margin-left: 80px;
     }
 
     .section-one {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/peopleoffice1.jpg);
         width: 1440px;
         padding: 188px 0 188px;
     }
