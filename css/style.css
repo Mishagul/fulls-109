@@ -109,7 +109,7 @@ line-height: 107%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff;
-max-width: 216px;
+width: 320px;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 48px;
@@ -837,19 +837,30 @@ margin-left: 80px;
         padding-left: 24px;
     }
 
+        .section-one {
+            width: 768px;
+        }
+
+        .solutions-title {
+            max-width: 768px;
+        }
+
     .list-qualities {
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
     }
 
     .team-list {
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
     }
 
         .portfolio-list {
+            width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
@@ -864,7 +875,21 @@ margin-left: 80px;
         padding-right: 15px;
     }
 
+    .section-one {
+        width: 1440px;
+    }
+
+        .solutions-title {
+            width: 1440px;
+            text-align: center;
+        }
+
+    .team {
+        padding: 120 0;
+    }
+
         .portfolio-list {
+            width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 24px;
