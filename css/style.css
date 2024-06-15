@@ -60,10 +60,15 @@ ul {
 }
 
 .close-menu-btn {
+    width: 24px;
+    height: 24px;
+    fill: #FFFFFF;
+    color: #2e2f42;
     display: block;
     margin-left: auto;
     border-radius: 100%;
     stroke-width: 1px;
+    margin-bottom: 31px;
 }
 
 .mob-menu {
@@ -75,13 +80,21 @@ ul {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
+    padding: 16px;
 }
 
 .mob-menu-list {}
 
-.mob-menu-item {}
+.mob-menu-item:not(:last-child) {
+    margin-bottom: 40px;
+}
 
-.mob-menu-link {}
+.mob-menu-link {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+}
 
 .current {}
 
