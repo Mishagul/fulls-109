@@ -835,7 +835,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #ffffff;
-margin-bottom: 16px;
+margin-bottom: 24px;
 /* margin-left: 80px; */
 padding-left: 122px;
 }
@@ -877,6 +877,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    margin-top: 16px;
+    margin-left: 77px;
 }
 
 .footer-form-svg {
