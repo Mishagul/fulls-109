@@ -84,7 +84,9 @@ ul {
     flex-direction: column;
 }
 
-.mob-menu-list {}
+.mob-menu-list {
+    margin-bottom: 168px;
+}
 
 .mob-menu-item:not(:last-child) {
     margin-bottom: 40px;
@@ -97,19 +99,24 @@ ul {
         letter-spacing: 0.02em;
 }
 
-.current {}
+.current {
 
-.mob-contact-list {}
+}
+
+.mob-contact-list {
+}
 
 .mob-contact {}
 
 .mob-network-list {
-    margin-top: auto;
 }
 
 .mob-item {}
 
-.our-mob-link {}
+.our-mob-link {
+    color: #F4F4FD;
+    fill: #F4F4FD;
+}
 
 .our-mob-svg {}
 
