@@ -46,6 +46,7 @@ ul {
 }
 
 .address-contact {
+    display: none;
     font-style: normal;
     margin-left: auto;
 }
@@ -825,20 +826,20 @@ margin-left: 80px;
         .solutions-title {
             max-width: 768px;
         }
+                .header-contact-list {
+                display: flex;
+                flex-direction: column;
+                gap: 12px; 
+                }
 
                 .header-menu-link {
                     font-family: "Roboto", sans-serif;
                     font-weight: 500;
-                    font-size: 16px;
-                    line-height: 150%;
+                    font-size: 12px;
+                    line-height: 1.16;
                     letter-spacing: 0.02em;
                     color: #2e2f42;
                     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                }
-
-                .header-menu-link:hover,
-                .header-menu-link:focus {
-                color: #404BBF;
                 }
 
                 .current {
@@ -857,7 +858,7 @@ margin-left: 80px;
                     background-color: #404bbf;
                     border-radius: 2px;
                 }
-                
+
                 .header-menu-item {
                     display: block;
                     line-height: 1.5;
@@ -896,11 +897,25 @@ margin-left: 80px;
         padding-left: 108px;
         }
 }
-
+/* 1158px */
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
         padding: 0 15px;
+    }
+
+    .header-logo {
+        margin-right: 76px;
+    }
+
+        .header-menu-item {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+    .header-contact-list {
+        flex-direction: row;
+        gap: 40px;
     }
 
     .section-one {
