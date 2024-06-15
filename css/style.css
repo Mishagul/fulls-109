@@ -81,6 +81,8 @@ ul {
     opacity: 0;
     pointer-events: none;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 .mob-menu-list {}
@@ -102,7 +104,9 @@ ul {
 
 .mob-contact {}
 
-.mob-network-list {}
+.mob-network-list {
+    margin-top: auto;
+}
 
 .mob-item {}
 
