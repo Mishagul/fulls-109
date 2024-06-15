@@ -418,9 +418,7 @@ transform: translateY(0%);
     /* gap: 24px; */
 }
 
-/* .qualities-items {
-    flex-basis: calc(( 1128px - 72px ) / 4 );
-} */
+
 
 .team {
     /* padding: 120px 0; */
@@ -635,7 +633,7 @@ overflow: hidden;
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 408px;
+    width: 288px;
     min-height: 584px;
     background: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);;
@@ -1041,6 +1039,10 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             margin: 0;
             margin-left: 24px;
         }
+
+        .modal {
+            width: 408px;
+        }
 }
 /* 1158px */
 @media screen and (min-width: 1158px) {
@@ -1054,6 +1056,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
 
         .header-menu-item {
+            display: block;
             font-size: 16px;
             line-height: 1.5;
         }
@@ -1079,26 +1082,46 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             }
         }
 
+        .list-qualities {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            justify-content: center;
+        }
+
+                .qualities-items {                 
+                    flex-basis: calc((1128px - 72px) / 4);
+                }
+
         .solutions-title {
             width: 1440px;
             text-align: center;
         }
 
-        .team {
-        padding: 120 0;
+        .team-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
     }
 
         .portfolio-list {
             width: 100%;
-        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
         grid-template-columns: repeat(3, 1fr);
         gap: 24px;
         }
 
-        .footer-div {
-            align-items: baseline;
+        .icon-block {
             display: flex;
-            flex-wrap: wrap;
+        }
+
+        .footer-div {
+            display: flex;
             justify-content: space-between;
+            margin: auto;
+        }
+
+        .modal {
+            width: 408px;
         }
 }
