@@ -60,14 +60,51 @@ ul {
 }
 
 .close-menu-btn {
-    padding: 0;
-    line-height: 0;
+    display: block;
+    margin-left: auto;
     border-radius: 100%;
     stroke-width: 1px;
 }
 
+.mob-menu {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.mob-menu-list {}
+
+.mob-menu-item {}
+
+.mob-menu-link {}
+
+.current {}
+
+.mob-contact-list {}
+
+.mob-contact {}
+
+.mob-network-list {}
+
+.mob-item {}
+
+.our-mob-link {}
+
+.our-mob-svg {}
+
 .section-one {
     background-color: #2e2f42;
+}
+
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .solutions-title {
