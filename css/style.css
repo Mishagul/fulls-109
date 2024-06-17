@@ -151,7 +151,7 @@ color: #ffffff;
 width: 216px;
 margin-left: auto;
 margin-right: auto;
-margin-bottom: 48px;
+margin-bottom: 72px;
 }
 
 .solutions-buy-btn {
@@ -186,7 +186,7 @@ text-align: center;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color:#2e2f42 ;
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 
 .qualities-strategy {
@@ -195,7 +195,6 @@ padding-bottom: 8px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin: 0;
-    padding-bottom: 72px;
 }
 
 .qualities-items {
@@ -402,7 +401,7 @@ transform: translateY(0%);
     padding-top: 96px;
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 24px;
+    padding-bottom: 96px;
     margin: 0;
 }
 
@@ -510,7 +509,6 @@ overflow: hidden;
     padding-left: 0;
     margin: 0;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-top: 32px;
 }
 
 .app-item {
@@ -920,6 +918,14 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             gap: 40px;
         }
 
+        .header-menu-item {
+            font-size: 12px;
+        }
+
+        .header-menu-link {
+            font-size: 16px;
+        }
+
         .header-logo {
             margin-right: 120px;
         }
@@ -933,7 +939,12 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         }
 
         .solutions-title {
-            max-width: 496px;
+            width: 496px;
+            font-weight: 700;
+                font-size: 56px;
+                line-height: 107%;
+                letter-spacing: 0.02em;
+                margin-bottom: 36px;
         }
                 .header-contact-list {
                 display: flex;
@@ -950,7 +961,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
                 }
 
                                 .qualities-strategy {
-                                    font-weight: 400;
+                                    font-weight: 500;
                                         font-size: 16px;
                                         line-height: 1.5;
                                         letter-spacing: 0.02em;
@@ -1003,23 +1014,22 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 24px;
+        gap: 72px 24px;
     }
 
     .team-list {
-        gap: 24px;
+        gap: 64px 24px;
     }
 
     .gallery {
         margin: 0;
-        margin-bottom: 48px;
     }
 
         .portfolio-list {
             width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 24px;
+        gap: 48px 24px;
         }
 
         .footer-div {
@@ -1106,6 +1116,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     .solutions-title {
         font-size: 56px;
         max-width: 496px;
+        margin-bottom: 48px;
     }
 
     .section-one {
@@ -1138,6 +1149,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
                     flex-basis: calc((1128px - 72px) / 4);
                 }
 
+                .qualities-strategy {
+                    font-weight: 400;
+                }
+
+            
         .solutions-title {
             width: 1440px;
             text-align: center;
